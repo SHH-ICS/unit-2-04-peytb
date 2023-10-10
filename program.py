@@ -9,5 +9,11 @@
 result = ""
 for myNumber in range(32):
   result = str(result) + str(myNumber) + "\n"
+  if (i+1)%3 == 0: and if (i+1)%5 == 0:
+    print("fizzbuzz")
+  elif (i+1)%3 == 0:
+   [rint("fizz")
+  elif (i+1)%5 == 0:
+    print("buzz")
 
 print(result)
